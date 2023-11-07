@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -10,14 +10,37 @@
 
     <title>Ajax Ex2</title>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
 </head>
 
 <body>
 
-    <select id="select1"></select>
-    <select id="select2"></select>
+    <label for="selectRegion">Sélectionnez une région :</label>
+
+    <select id="selectRegion" class="custom-select">
+
+        <option value="">Choisissez une région</option>
+
+    </select>
+
+    <label for="selectDepartement">Sélectionnez un département :</label>
+
+    <select id="selectDepartement" class="custom-select">
+
+        <option value="">Choisissez un département</option>
+        
+    </select>
     
 </body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 <script src="/Assets/json.js"></script>
 
